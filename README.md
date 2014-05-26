@@ -1,9 +1,9 @@
 ##SpacePy sample code
 
-This is SpacePy module sample code. 
-SpacePy is useful SpaceScience Library which written by python.
+This is SpacePy library sample code. 
+SpacePy is useful SpaceScience Library which written by Python.
 
-You can download SpacePy below the URL.
+You can download SpacePy below the URL. 
 http://spacepy.lanl.gov/download.shtml
 
 You should be install these software and lib.
@@ -14,9 +14,15 @@ You should be install these software and lib.
 * blas-devel 
 * lapack-devel 
 * numpy 
-* scipy
+* scipy 
 * matplotlib
 
-if you want a procedure, below URL can help yourself. 
+if you want a procedure, below URL can help you.  
 http://memo.yomukaku.net/entries/jbRkQkq
+
+
+
+
+
+
 
