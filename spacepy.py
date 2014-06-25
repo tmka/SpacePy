@@ -7,21 +7,19 @@ def main():
 	if not args or len(args) != 1:
         return 0
     CDF = args[0]
+    cdf=pycdf.CDF(CDF)
     print "Information CDF"
-    ReadCDF(CDF)
+    ReadCDF(cdf)
     print "Global Attributes"
-    OutGA(CDF)
+    OutGA(cdf)
 
 
-def ReadCDF(CDF):
-	cdf=pycdf.CDF(CDF)
+def ReadCDF(cdf):
 	print(cdf)
-
-def OutGA():
-	continue
-
-
-
-
+	cdf.close()
+def OutGA(cdf):
+	ga=cdf.attr
+	print(ga)
+	
 if __name__=='__main__':
 	main()

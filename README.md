@@ -11,7 +11,7 @@ http://spacepy.lanl.gov/download.shtml
 
 You should be install these software and lib.
 
-* python2.7(or more)
+* python2.7(or later)
 * distribute
 * gcc-gfortran
 * blas-devel
@@ -23,11 +23,14 @@ You should be install these software and lib.
 if you want a procedure, below URL can help you.
 http://memo.yomukaku.net/entries/jbRkQkq
 
+Also if you want to use CDF format, you should be install to the CDF Library from ISTP/NASA Homepage.
+
 ##What's contains this repository
 
 This repository contains sample code of SpacePy.
 
-* Attribute_sample.py
+* spacepy.py
+* README.md
 
 
 
