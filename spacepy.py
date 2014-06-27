@@ -13,13 +13,12 @@ def main():
     print "Global Attributes"
     OutGA(cdf)
 
-
 def ReadCDF(cdf):
 	print(cdf)
 	cdf.close()
 def OutGA(cdf):
 	ga=cdf.attr
 	print(ga)
-	
+
 if __name__=='__main__':
 	main()
